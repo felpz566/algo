@@ -1,0 +1,50 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "MGHK Client",
+    "description": "MGHK Client Bedrock — menu e funções experimentais",
+    "uuid": "b4a19c2e-3c6a-4a8f-9c1d-8b6a1f2d7e30",
+    "version": [
+      1,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a32d7e91-5b4c-4f08-8e2a-1c9d6b7f3a50",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c5f0a9b1-7d23-4e86-a4b2-9f1c6d8e3a70",
+      "version": [
+        1,
+        2,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}
