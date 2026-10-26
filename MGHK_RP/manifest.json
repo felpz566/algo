@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "MGHK Client Resources",
+    "description": "Recursos do MGHK Client",
+    "uuid": "d6b2f8a4-1e39-4c70-9a5d-2f7b8c1e4d60",
+    "version": [
+      1,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e7c3a9b5-2f40-4d81-8b6e-3a9c1d7f5e20",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b4a19c2e-3c6a-4a8f-9c1d-8b6a1f2d7e30",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}
